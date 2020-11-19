@@ -9,7 +9,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.BLL", "CC01.BLL\CC01.B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.DAL", "CC01.DAL\CC01.DAL.csproj", "{034A6D4F-67B7-4151-BBDB-FEDF61D71EDE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsForms", "WindowsForms\WindowsForms.csproj", "{EAD3F4B5-77DA-4177-829A-D7239D0DC11E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "fromEtudiant", "WindowsForms\fromEtudiant.csproj", "{EAD3F4B5-77DA-4177-829A-D7239D0DC11E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formEtablisement", "formEtablisement\formEtablisement.csproj", "{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "REchercheform", "REchercheform\REchercheform.csproj", "{3D3D27DE-34EA-4C87-B86C-5B886C2A57FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +37,14 @@ Global
 		{EAD3F4B5-77DA-4177-829A-D7239D0DC11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAD3F4B5-77DA-4177-829A-D7239D0DC11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAD3F4B5-77DA-4177-829A-D7239D0DC11E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D3D27DE-34EA-4C87-B86C-5B886C2A57FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3D27DE-34EA-4C87-B86C-5B886C2A57FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3D27DE-34EA-4C87-B86C-5B886C2A57FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3D27DE-34EA-4C87-B86C-5B886C2A57FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
