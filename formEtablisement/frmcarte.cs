@@ -10,16 +10,13 @@ using System.Windows.Forms;
 
 namespace formEtablisement
 {
-    public partial class frmEcole : Form
+    public partial class frmcarte : Form
     {
-        public frmEcole()
+        public frmcarte()
         {
             InitializeComponent();
         }
 
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
+      
     }
 }
