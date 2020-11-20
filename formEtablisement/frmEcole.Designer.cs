@@ -57,12 +57,12 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(296, 176);
+            this.label1.Location = new System.Drawing.Point(256, 182);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(51, 20);
+            this.label1.Size = new System.Drawing.Size(124, 20);
             this.label1.TabIndex = 0;
-            this.label1.Text = "label1";
+            this.label1.Text = "Né(e)le /Born on";
             // 
             // textBox1
             // 
@@ -150,9 +150,9 @@
             this.label4.Location = new System.Drawing.Point(296, 421);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(51, 20);
+            this.label4.Size = new System.Drawing.Size(48, 20);
             this.label4.TabIndex = 9;
-            this.label4.Text = "label4";
+            this.label4.Text = "Email";
             // 
             // textBox5
             // 
@@ -168,9 +168,9 @@
             this.label5.Location = new System.Drawing.Point(296, 374);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(51, 20);
+            this.label5.Size = new System.Drawing.Size(65, 20);
             this.label5.TabIndex = 11;
-            this.label5.Text = "label5";
+            this.label5.Text = "Contact";
             // 
             // textBox6
             // 
@@ -183,12 +183,12 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(288, 314);
+            this.label6.Location = new System.Drawing.Point(265, 311);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(51, 20);
+            this.label6.Size = new System.Drawing.Size(101, 20);
             this.label6.TabIndex = 13;
-            this.label6.Text = "label6";
+            this.label6.Text = "Identifiant/ID";
             // 
             // textBox7
             // 
@@ -204,9 +204,9 @@
             this.label7.Location = new System.Drawing.Point(296, 247);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(51, 20);
+            this.label7.Size = new System.Drawing.Size(44, 20);
             this.label7.TabIndex = 15;
-            this.label7.Text = "label7";
+            this.label7.Text = "A/AT";
             // 
             // button2
             // 
@@ -227,6 +227,7 @@
             this.button3.TabIndex = 18;
             this.button3.Text = "button3";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
