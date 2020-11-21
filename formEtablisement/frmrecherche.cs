@@ -16,5 +16,15 @@ namespace formEtablisement
         {
             InitializeComponent();
         }
+
+        private void btnEdit_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

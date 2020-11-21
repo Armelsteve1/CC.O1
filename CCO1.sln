@@ -10,6 +10,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CC01.DAL", "CC01.DAL\CC01.DAL.csproj", "{034A6D4F-67B7-4151-BBDB-FEDF61D71EDE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "formEtablisement", "formEtablisement\formEtablisement.csproj", "{269C26C7-BF3A-43EF-955F-B2FBC7C053F4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9AFBAD33-B9A4-4C14-A96D-7162FE8310A5} = {9AFBAD33-B9A4-4C14-A96D-7162FE8310A5}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

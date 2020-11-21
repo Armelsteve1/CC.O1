@@ -41,7 +41,7 @@
             // textBox1
             // 
             this.textBox1.Location = new System.Drawing.Point(195, 48);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(148, 24);
             this.textBox1.TabIndex = 0;
@@ -60,12 +60,13 @@
             // 
             this.cancel.ForeColor = System.Drawing.Color.Red;
             this.cancel.Location = new System.Drawing.Point(3, 258);
-            this.cancel.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.cancel.Margin = new System.Windows.Forms.Padding(4);
             this.cancel.Name = "cancel";
             this.cancel.Size = new System.Drawing.Size(142, 41);
             this.cancel.TabIndex = 2;
             this.cancel.Text = "Cancel";
             this.cancel.UseVisualStyleBackColor = true;
+            this.cancel.Click += new System.EventHandler(this.cancel_Click);
             // 
             // label2
             // 
@@ -128,7 +129,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);

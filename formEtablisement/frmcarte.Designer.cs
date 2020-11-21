@@ -78,6 +78,7 @@
             this.close.TabIndex = 2;
             this.close.Text = "close";
             this.close.UseVisualStyleBackColor = true;
+            this.close.Click += new System.EventHandler(this.close_Click);
             // 
             // pictureBox1
             // 
