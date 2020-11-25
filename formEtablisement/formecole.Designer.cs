@@ -28,23 +28,23 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.txtNom = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cancel = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtville = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.btnsave = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // textBox1
+            // txtNom
             // 
-            this.textBox1.Location = new System.Drawing.Point(195, 48);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(148, 24);
-            this.textBox1.TabIndex = 0;
+            this.txtNom.Location = new System.Drawing.Point(195, 48);
+            this.txtNom.Margin = new System.Windows.Forms.Padding(4);
+            this.txtNom.Name = "txtNom";
+            this.txtNom.Size = new System.Drawing.Size(148, 24);
+            this.txtNom.TabIndex = 0;
             // 
             // label1
             // 
@@ -78,13 +78,13 @@
             this.label2.TabIndex = 4;
             this.label2.Text = "Ville";
             // 
-            // textBox2
+            // txtville
             // 
-            this.textBox2.Location = new System.Drawing.Point(195, 114);
-            this.textBox2.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(148, 24);
-            this.textBox2.TabIndex = 3;
+            this.txtville.Location = new System.Drawing.Point(195, 114);
+            this.txtville.Margin = new System.Windows.Forms.Padding(4);
+            this.txtville.Name = "txtville";
+            this.txtville.Size = new System.Drawing.Size(148, 24);
+            this.txtville.TabIndex = 3;
             // 
             // label3
             // 
@@ -96,38 +96,39 @@
             this.label3.TabIndex = 6;
             this.label3.Text = "Email";
             // 
-            // textBox3
+            // txtEmail
             // 
-            this.textBox3.Location = new System.Drawing.Point(195, 182);
-            this.textBox3.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(148, 24);
-            this.textBox3.TabIndex = 5;
+            this.txtEmail.Location = new System.Drawing.Point(195, 182);
+            this.txtEmail.Margin = new System.Windows.Forms.Padding(4);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(148, 24);
+            this.txtEmail.TabIndex = 5;
             // 
-            // button2
+            // btnsave
             // 
-            this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(195, 258);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 41);
-            this.button2.TabIndex = 7;
-            this.button2.Text = "save";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnsave.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.btnsave.Location = new System.Drawing.Point(195, 258);
+            this.btnsave.Margin = new System.Windows.Forms.Padding(4);
+            this.btnsave.Name = "btnsave";
+            this.btnsave.Size = new System.Drawing.Size(140, 41);
+            this.btnsave.TabIndex = 7;
+            this.btnsave.Text = "save";
+            this.btnsave.UseVisualStyleBackColor = true;
+            this.btnsave.Click += new System.EventHandler(this.btnsave_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(348, 320);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btnsave);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.txtEmail);
             this.Controls.Add(this.label2);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtville);
             this.Controls.Add(this.cancel);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.txtNom);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
@@ -139,13 +140,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox txtNom;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button cancel;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtville;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.TextBox txtEmail;
+        private System.Windows.Forms.Button btnsave;
     }
 }

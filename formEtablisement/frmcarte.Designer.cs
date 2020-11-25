@@ -216,6 +216,7 @@
             this.save.TabIndex = 17;
             this.save.Text = "Save";
             this.save.UseVisualStyleBackColor = true;
+            this.save.Click += new System.EventHandler(this.save_Click);
             // 
             // frmcarte
             // 

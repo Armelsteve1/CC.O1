@@ -21,5 +21,12 @@ namespace formEtablisement
         {
             this.Close();
         }
+
+        private void btnsave_Click(object sender, EventArgs e)
+        {
+            Ecole ecole = new Ecole(txtNom.Text, txtville.Text, txtEmail.Text);
+
+            
+        }
     }
 }

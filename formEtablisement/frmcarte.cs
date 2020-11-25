@@ -21,5 +21,10 @@ namespace formEtablisement
         {
             this.Close();
         }
+
+        private void save_Click(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

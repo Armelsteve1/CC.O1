@@ -46,17 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Ecole.cs" />
     <Compile Include="frmrecherche.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmrecherche.Designer.cs">
       <DependentUpon>frmrecherche.cs</DependentUpon>
     </Compile>
-    <Compile Include="formulaire ecole.cs">
+    <Compile Include="formecole.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="formulaire ecole.Designer.cs">
-      <DependentUpon>formulaire ecole.cs</DependentUpon>
+    <Compile Include="formecole.Designer.cs">
+      <DependentUpon>formecole.cs</DependentUpon>
     </Compile>
     <Compile Include="frmcarte.cs">
       <SubType>Form</SubType>
@@ -67,8 +68,8 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="..\..\Cc1.resx" />
-    <EmbeddedResource Include="formulaire ecole.resx">
-      <DependentUpon>formulaire ecole.cs</DependentUpon>
+    <EmbeddedResource Include="formecole.resx">
+      <DependentUpon>formecole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmcarte.resx">
       <DependentUpon>frmcarte.cs</DependentUpon>
@@ -97,6 +98,16 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CC01.BO\CC01.BO.csproj">
+      <Project>{9afbad33-b9a4-4c14-a96d-7162fe8310a5}</Project>
+      <Name>CC01.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\CC01.DAL\CC01.DAL.csproj">
+      <Project>{034a6d4f-67b7-4151-bbdb-fedf61d71ede}</Project>
+      <Name>CC01.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
