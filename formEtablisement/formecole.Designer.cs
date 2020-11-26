@@ -228,7 +228,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1084, 386);
+            this.ClientSize = new System.Drawing.Size(1037, 386);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.txtRecherchEcole);
             this.Controls.Add(this.btnsupprimer);

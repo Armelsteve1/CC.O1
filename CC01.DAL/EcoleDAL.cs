@@ -13,7 +13,7 @@ namespace CC01.DAL
     public class EcoleDAL
     {
         private static List<Ecole> ecoles;
-        private const string FILE_NAME = @"ecole.json";
+        private const string FILE_NAME = "@data/ecole.json";
         private readonly string dbFolder;
         private FileInfo file;
         public EcoleDAL(string dbFolder)
