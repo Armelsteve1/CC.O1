@@ -29,7 +29,7 @@ namespace formEtablisement
 
         private void btnconecole_Click(object sender, EventArgs e)
         {
-            Form f = new Form1();
+            Form1 f = new Form1();
             f.Show();
         }
 

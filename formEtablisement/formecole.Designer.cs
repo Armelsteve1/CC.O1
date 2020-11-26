@@ -132,6 +132,7 @@
             // 
             // pictureBoxlogoecole
             // 
+            this.pictureBoxlogoecole.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.pictureBoxlogoecole.Location = new System.Drawing.Point(12, 69);
             this.pictureBoxlogoecole.Name = "pictureBoxlogoecole";
             this.pictureBoxlogoecole.Size = new System.Drawing.Size(143, 184);

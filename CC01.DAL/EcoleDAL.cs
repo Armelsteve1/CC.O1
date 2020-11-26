@@ -13,34 +13,42 @@ namespace CC01.DAL
     public class EcoleDAL
     {
         private static List<Ecole> ecoles;
-        private const string FILE_NAME = "@data/ecole.json";
+        private const string FILE_NAME = "@ecole.json";
         private readonly string dbFolder;
         private FileInfo file;
         public EcoleDAL(string dbFolder)
         {
-            this.dbFolder = dbFolder;
-            file = new FileInfo(Path.Combine(this.dbFolder, FILE_NAME));
-            if (!file.Directory.Exists)
+            try
             {
-                file.Directory.Create();
-            }
-            if (!file.Exists)
-            {
-                file.Create().Close();
-                file.Refresh();
-            }
-            if (file.Length > 0)
-            {
-                using (StreamReader sr = new StreamReader(file.FullName))
+                this.dbFolder = dbFolder;
+                file = new FileInfo(Path.Combine(this.dbFolder, FILE_NAME));
+                if (!file.Directory.Exists)
                 {
-                    string json = sr.ReadToEnd();
-                    ecoles = JsonConvert.DeserializeObject<List<Ecole>>(json);
+                    file.Directory.Create();
+                }
+                if (!file.Exists)
+                {
+                    file.Create().Close();
+                    file.Refresh();
+                }
+                if (file.Length > 0)
+                {
+                    using (StreamReader sr = new StreamReader(file.FullName))
+                    {
+                        string json = sr.ReadToEnd();
+                        ecoles = JsonConvert.DeserializeObject<List<Ecole>>(json);
+                    }
+                }
+                if (ecoles == null)
+                {
+                    ecoles = new List<Ecole>();
                 }
             }
-            if (ecoles == null)
+            catch(Exception e)
             {
-                ecoles = new List<Ecole>();
+                
             }
+
         }
 
 
@@ -82,7 +90,10 @@ namespace CC01.DAL
         }
         public IEnumerable<Ecole> Find(Func<Ecole, bool> predicate)
         {
-            return new List<Ecole>(ecoles.Where(predicate).ToArray());
+            
+                return new List<Ecole>(ecoles.Where(predicate).ToArray());
+            
+           
         }
         public void Remove(Ecole ecole)
         {

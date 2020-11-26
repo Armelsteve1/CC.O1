@@ -25,6 +25,8 @@ namespace CC01.BLL
             if (!string.IsNullOrEmpty(newEcole.Logo.ToString()))
                 File.Delete(newEcole.Logo.ToString());
         }
+        
+        
         public void DeleteEcole(Ecole ecole)
         {
             ecoleRepo.Remove(ecole);
