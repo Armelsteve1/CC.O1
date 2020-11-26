@@ -41,8 +41,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="programBLL.cs" />
+    <Compile Include="Camon.cs" />
+    <Compile Include="EcoleBLL.cs" />
+    <Compile Include="EtudiantBLL.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TypingException.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CC01.BO\CC01.BO.csproj">

@@ -34,6 +34,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -46,12 +47,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Ecole.cs" />
-    <Compile Include="frmrecherche.cs">
+    <Compile Include="connecte.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmrecherche.Designer.cs">
-      <DependentUpon>frmrecherche.cs</DependentUpon>
+    <Compile Include="connecte.Designer.cs">
+      <DependentUpon>connecte.cs</DependentUpon>
     </Compile>
     <Compile Include="formecole.cs">
       <SubType>Form</SubType>
@@ -74,8 +74,8 @@
     <EmbeddedResource Include="frmcarte.resx">
       <DependentUpon>frmcarte.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="frmrecherche.resx">
-      <DependentUpon>frmrecherche.cs</DependentUpon>
+    <EmbeddedResource Include="connecte.resx">
+      <DependentUpon>connecte.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -100,6 +100,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\CC01.BLL\CC01.BLL.csproj">
+      <Project>{0C0A5117-A8AF-4146-AC1B-9943D320C867}</Project>
+      <Name>CC01.BLL</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CC01.BO\CC01.BO.csproj">
       <Project>{9afbad33-b9a4-4c14-a96d-7162fe8310a5}</Project>
       <Name>CC01.BO</Name>

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace formEtablisement
 {
-    public partial class frmrecherche : Form
+    public partial class connecte : Form
     {
-        public frmrecherche()
+        public connecte()
         {
             InitializeComponent();
         }
@@ -25,6 +25,18 @@ namespace formEtablisement
         private void btnNew_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnconecole_Click(object sender, EventArgs e)
+        {
+            Form f = new Form1();
+            f.Show();
+        }
+
+        private void btnconetudiant_Click(object sender, EventArgs e)
+        {
+            Form f = new frmcarte();
+            f.Show();
         }
     }
 }

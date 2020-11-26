@@ -16,7 +16,7 @@ namespace formEtablisement
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new frmcarte());
+            Application.Run(new connecte());
         }
     }
 }
